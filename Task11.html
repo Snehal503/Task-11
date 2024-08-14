@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <title>Library Form</title>
+</head>
+<body>
+    <h1>Library Form</h1>
+    <h4>Help us improve your Library !</h4>
+    <form>
+        <lable for="name" type="text">NAME</lable>
+        <input type="text" placeholder="Enter your name"/>
+        <br/>
+        <br/>
+        <lable for="email" type="text">E-mail</lable>
+        <input type="email" placeholder="Enter your Email"/>
+        <br/>
+        <br/>
+        <lable for="Age" type="number">AGE</lable>
+        <input type="number" placeholder="Age" min="1" max="2"/>
+        <br/>
+        <br/>
+        <h4>How often do you visit the Library</h4>
+        <select>
+            <option>Select</option>
+            <option>Daily</option>
+            <option>Weekly</option>
+            <option>Daily 2 times</option>
+            <option>Always</option>
+        </select>
+        <br/>
+        <br/>
+        <h4> When you visit, are you usually able to find what you are looking for ?</h4>
+        <input id="Always" name="visit" type="radio" value="Always">
+        <lable for="Always">Always</lable>
+        <br/>
+        <br/>
+        <input id="sometimes" name="visit" type="radio" value="sometimes"/>
+        <lable for="sometimes">Sometimes</lable>
+        <br/>
+        <br/>
+        <input id="rarly" name="visit" type="radio" value="rarly"/>
+        <lable for="rarly">Rarly</lable>
+        <br/>
+        <br/>
+        <input id="Never" name="visit" type="radio" value="Never"/>
+        <lable for="Never">Never</lable>
+        <br/>
+        <br/>
+        <h4>Do you usually find the books abd other materials that you are <br/>looking for in tne library</h4>
+        <input id="Always" name="material" type="radio" value="Always">
+        <lable for="Always">Always</lable>
+        <br/>
+        <br/>
+        <input id="sometimes" name="material" type="radio" value="sometimes"/>
+        <lable for="sometimes">Sometimes</lable>
+        <br/>
+        <br/>
+        <input id="rarly" name="material" type="radio" value="rarly"/>
+        <lable for="rarly">Rarly</lable>
+        <br/>
+        <br/>
+        <input id="Never" name="material" type="radio" value="Never"/>
+        <lable for="Never">Never</lable>
+        <br/>
+        <br/>
+        <h4>Please check all of the reasons you visit the library.?( Check all that apply)</h4>
+        <input type="checkbox" id="reason1" name="reasons" value="to check out/returns books"/> 
+        <label for="reason1" >to check out / return books</label>
+        <br/>
+        <br/>
+        <input type="checkbox" id="reason2" name="reasons" value="to use the computer"/>
+        <label for="reason2" >to use the computer</label>
+        <br/>
+        <br/>
+        <input type="checkbox" id="reason4" name="reasons" value="to get a book recommendation"/>
+        <label for="reason3" >to get a book recommendation</label>
+        <br/>
+        <br/>
+        <input type="checkbox" id="reason4" name="reasons" value="to do research / find information"/>
+        <label for="reason4" >to do research / find information</label>
+        <br/>
+        <br/>
+        <input type="checkbox" id="reason5" name="reasons" values="to take a class"/>
+        <lable for="reason5">to take a class</lable>
+        <br/>
+        <br/>
+        <h4>Anything you would like to see improve ?</h4>
+        <input type="text" placeholder="Enter your comment here......" min="50" maxlength="100"/>
+        <br/>
+        <br/>
+        <input type="submit"value="submit"/>
+    </form>
+</body>
+</html>
